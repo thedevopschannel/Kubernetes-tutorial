@@ -4,7 +4,7 @@ metadata:
   name: mypod
 spec:
   containers:
-  - name: mycontainer
-    image: myprivate.registry.com/myimage:tag
+  - name: mycontainer  #change according to your environment
+    image: myprivate.registry.com/myimage:tag #change according to your environment
   imagePullSecrets:
-  - name: myregistrykey
+  - name: myregistrykey #change according to your environment
