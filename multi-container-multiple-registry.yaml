@@ -8,5 +8,5 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
-  - name: con
-    image: redis
+  - name: bitnami-redis
+    image: public.ecr.aws/bitnami/redis:7.2.4-debian-12-r13
